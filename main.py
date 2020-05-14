@@ -13,8 +13,10 @@ def main():
         print("Please include URL using the -u in the cammand section of this script.")
         quit()
     else:
-        ScraperBot(Url)
-
+        try:
+            ScraperBot(Url)
+        except Exception:
+            print("Please send a valid URL in param-->")
 
 
 
