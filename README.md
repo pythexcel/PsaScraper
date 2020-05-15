@@ -6,14 +6,13 @@
 * Clone scraper repo from git by cammand `git clone https://github.com/pythexcel/PsaScraper.git`
 * go into project directory.
 * Install requirements by cammand `pip3 install -r requirements.txt`
-* Run script with url `python3 main.py -u https://www.psacard.com/auctionprices/baseball-cards/topps/ernie-banks-white-back/values/179866`
+* Run script with url `python3 main.py -u https://www.psacard.com/auctionprices/baseball-cards/topps/ron-negray-gray-back/values/674398`
 
 
 
 Note: In example i used python3 because if multiple python installed
  ### Examples
- * `python3 main.py -u https://www.psacard.com/auctionprices/baseball-cards/topps/ray-boone-white-backvalues/179853`
- 
+
  * `python3 main.py -u https://www.psacard.com/auctionprices/baseball-cards/topps/ron-negray-gray-back/values/674398`
  
  * `python3 main.py -u https://www.psacard.com/auctionprices/baseball-cards/topps/warren-spahn-gray-back/values/674402`
